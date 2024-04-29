@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left:55px;
+    padding-right:55px;
+}
+
+.dark-theme {
+    background-color: #18181b;
+    color: #fff;
+}
+
+.logo img {
+    width: 150px;
+    padding-left:30px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f59e0b;
+}
+
+.cta {
+    padding-right:30px
+}
+
+.cta .btn {
+    padding: 10px 20px;
+    background-color: #f59e0b;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta .btn:hover {
+    background-color: #fbbf24;
+}
+
+.hero {
+    background-image: url("../images/backroundimg.png");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+  
+  
+    text-align: left;
+    color: #fff;
+  }
+  
+
+
+  .hero-content {
+    max-width: 600px;
+    padding: 20px;
+    margin-top :200px;
+    margin-left: 4%;
+    
+  }
+
+  .about-content {
+    max-width: 600px;
+    padding: 20px;
+    margin-top :50px;
+    margin-left: 4%;
+    
+  }
+  
+  .hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .about-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+
+  .hero-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  .about-content p {
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+
+  .about-content .btn {
+    display: inline-block;
+    background-color: #18181b;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+
+  .about-content .btn:hover {
+    background-color:#404040;
+  }
+
+  .btn {
+    display: inline-block;
+    background-color: #f59e0b;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fbbf24;
+  }
+
+  .about {
+    background-image: url("../images/about.jpg");
+    background-size: 1420px 772px;
+    background-position: center;
+    display: flex;
+    padding: 80px 0;
+    align-items: center;
+
+    text-align: left;
+    color: #000;
+  }
+  
+  .about {
+    display: flex;
+
+  }
+  
+  .about-content {
+    flex: 1;
+    max-width: 600px;
+    padding-right: 50px;
+    color: #000;
+    margin-left: 5%;
+    
+    
+  }
+  
+  .about h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .about p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .about-image {
+    max-width: 50%;
+    margin-right: 5%;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+
+.feedback {
+    background-image:url("../images/feedback.jpg");
+
+    text-align: center;
+}
+
+button.btn-send {
+    margin-left: 25px;
+}
+
+.feedback h2 {
+    font-size: 36px;
+    margin-left:35px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-left:755px;
+
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-group label {
+    font-size: 20px;
+    padding-left:25px;
+    margin-bottom: 10px;
+    color: #ffcc00;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color:#000;
+
+    color: #000;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.btn-send {
+    padding: 15px 30px;
+    background-color: #ffcc00;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight:bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-send:hover {
+    background-color: #ffdb4d;
+}
+

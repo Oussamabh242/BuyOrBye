@@ -33,7 +33,7 @@
         </div>
     </section>
 
-    <section class="feedback">
+    <!-- <section class="feedback">
         <div class="container">
             <h2>Feedback</h2>
             <form action="#" method="post" class="contact-form">
@@ -53,7 +53,7 @@
                 <button type="submit" class="btn-send">Send Message</button>
             </form>
         </div>
-    </section>
+    </section> -->
     <section class="about">
         <div class="about-content">
           <h2>About buyOrbye</h2>
